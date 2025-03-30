@@ -1,14 +1,12 @@
 {
-  "name": "nodejs-app",
+  "name": "my-telegram-bot",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "csv-parser": "^3.0.0"
   }
 }
